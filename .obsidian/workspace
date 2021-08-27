@@ -1,0 +1,125 @@
+{
+  "main": {
+    "id": "c8f46dbd6056b70e",
+    "type": "split",
+    "children": [
+      {
+        "id": "b3e546b526f792c2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "杂七杂八.md",
+            "mode": "source"
+          }
+        },
+        "group": "2e02a5b54534f7af"
+      },
+      {
+        "id": "db8d6c8b54ec5c61",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "杂七杂八.md",
+            "mode": "preview"
+          }
+        },
+        "group": "2e02a5b54534f7af"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5eabd1943380ce8b",
+    "type": "split",
+    "children": [
+      {
+        "id": "31236cb2ec68b97d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5a55dba2008783e2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "85f28c36c6d86be6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c32b38ce180a5f12",
+    "type": "split",
+    "children": [
+      {
+        "id": "07792b0129961bf5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "645c6577d9f0a0da",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "杂七杂八.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fc11142ba4eb8873",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "杂七杂八.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "b3e546b526f792c2",
+  "lastOpenFiles": [
+    "杂七杂八.md",
+    "win&mac使用技巧.md",
+    "ForNewPC.md",
+    "MarkdownNote.md",
+    "vim.md",
+    "private/一些感悟.md",
+    "private/privateNote.md",
+    "Git.md",
+    "ElasticSearch.md",
+    "winORmac使用技巧.md"
+  ]
+}
