@@ -20,6 +20,12 @@ description: win10 和 Macos快捷方式
 - 1. spotlight：```Alt+space```
 - 2. Windows 快捷键说明：```长按Windows键3秒```
 
+## Microsoft Store转圈圈
+问题为开启代理导致。
+1. 将代理设为direct，
+2. IE>设置>Internet设置>连接>局域网设置>取消勾选代理服务器
+3. 每次打开代理后都需要重新设置才能进入store
+
 
 # Mac
 

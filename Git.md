@@ -61,6 +61,9 @@ description: git#概要信息
 
 `git checkout -b localbranch origin/remotebranch`
 
+## 本地分支推送到远程
+`git push origin <local branch name>:<remote branch name>`
+
 ## 取消与远程分支关联
 
 `git branch --unset-upstream`
@@ -140,6 +143,9 @@ description: git#概要信息
 (注： amend命令只会修改最后一次commit的信息，之前的commit需要使用rebase）
 
 git commit --amend --reset-author
+
+## 当前文件提交到上一次的commit
+`git commit --amend` 
 
 ## 撤销commit
 
@@ -384,7 +390,28 @@ _二者区别：_
     
 -   每次提交产生的哈希值
 
+# 查看历史改动
+## 查看某次提交的改动
+`git show <commit id>`
+要善用git show ，非常好用。
+## 查看某一文件的历史改动
+`git log <filename>`
+查看文件的历次修改记录
+`git log -p <filename>`
+查看历次修改记录
+`git show <commit id> <filename>`
+查看某一次提交的历史记录
 # 其他
+## 公钥
+`cd ~/.ssh` 查找有没有`id_rsa..pub`
+若存在，则直接用vim打开或者运行指令`cat ~/.ssh/id_rsa.pub`
+若不存在，则运行`ssh-keygen -o`生成公钥。
+
+## 查看用户名和邮箱
+`git config --list` 查看全部配置
+`git config user.name "userName"` 配置当前项目的用户名
+`git config user.email "xx@XXX.com"` 配置当前项目的邮箱
+`config` 后面加`--global` 为全局配置，不建议这样做。
 
 ## git add . 与 git add * 的区别
 
@@ -694,7 +721,18 @@ git rm —-cached <file-to-remove> git commit —-amend
 总的来说，switch在分支上与checkout没有什么区别。checkout功能多，除了切换分支还有丢弃更改等功能。git官方推出switch用来专注分支切换功能，防止操作失误。
 
 参考:[git switch branch – Easily checkout git branches with this new command](https://bluecast.tech/blog/git-switch-branch/)
+	
+## git 默认启动路径
+打开git bash时默认是用户文件夹，若想更改则cd到~ 创建.bashrc文件，在文件中输入：
+`cd: <c:/your want open path>`  注意要用反斜杠。
+参考：https://stackoverflow.com/questions/7671461/how-do-i-change-the-default-location-for-git-bash-on-windows
 
+	
+## git bash 添加到Windows Terminal
+参考：https://medium.com/@techpreacher/using-git-bash-with-the-microsoft-terminal-bd1f71fa17a1
+	
+## git 查看某一条语句的修改记录
+`git blame <file name>`
 # git 报错
 
 ## fatal: This operation must be run in a work tree
